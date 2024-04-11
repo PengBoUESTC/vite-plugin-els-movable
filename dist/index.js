@@ -49,9 +49,9 @@ function elsMovable(options) {
                             tag: 'script',
                             injectTo: 'body',
                             children: `
-                const bindMove = ${bindMove.toString()};
-                const bindForEles = ${bindForEles.toString()};
-                bindForEles(${calssPrefix}, bindMove)
+                const __bindMove__ = ${bindMove.toString()};
+                const __bindForEles__ = ${bindForEles.toString()};
+                __bindForEles__(${calssPrefix}, __bindMove__)
               `
                         },
                     ],
