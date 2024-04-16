@@ -8,7 +8,7 @@ export default defineConfig({
   external: ['vite'],
   output: {
     dir: 'dist',
-    format: 'es',
+    format: 'cjs',
     chunkFileNames: '[name].js'
   },
 

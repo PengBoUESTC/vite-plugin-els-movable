@@ -1,4 +1,6 @@
-import { bindForEles } from './script.js';
+'use strict';
+
+var script = require('./script.js');
 
 function bindMove(el, boundInfo) {
     const bound = Object.assign({
@@ -50,8 +52,8 @@ function elsMovable(options) {
                             injectTo: 'body',
                             children: `
                 const __bindMove__ = ${bindMove.toString()};
-                const __bindForEles__ = ${bindForEles.toString()};
-                __bindForEles__(${calssPrefix}, __bindMove__)
+                const __bindForEles__ = ${script.bindForEles.toString()};
+                __bindForEles__('${calssPrefix}', __bindMove__)
               `
                         },
                     ],
@@ -61,4 +63,4 @@ function elsMovable(options) {
     };
 }
 
-export { elsMovable as default };
+module.exports = elsMovable;

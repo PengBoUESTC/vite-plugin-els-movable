@@ -24,7 +24,7 @@ export default function elsMovable(options: Partial<MovableOptions>):PluginOptio
               children: `
                 const __bindMove__ = ${bindMove.toString()};
                 const __bindForEles__ = ${bindForEles.toString()};
-                __bindForEles__(${calssPrefix}, __bindMove__)
+                __bindForEles__('${calssPrefix}', __bindMove__)
               `
             },
           ],

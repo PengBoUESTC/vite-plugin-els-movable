@@ -1,8 +1,11 @@
+'use strict';
+
 const bindForEles = (classPrefix, bindMove) => {
-    const els = [...document.querySelectorAll(`[class^=${classPrefix}]`)];
+    const selectors = classPrefix.split(',').map(prefix => `[class^=${prefix}]`).join(',');
+    const els = [...document.querySelectorAll(selectors)];
     els.forEach(ele => {
         bindMove(ele, {});
     });
 };
 
-export { bindForEles };
+exports.bindForEles = bindForEles;
