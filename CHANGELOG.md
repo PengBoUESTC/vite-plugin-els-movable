@@ -1,3 +1,7 @@
+## [0.2.3](https://github.com/PengBoUESTC/vite-plugin-els-movable/compare/v0.2.2...v0.2.3) (2024-04-16)
+
+
+
 ## [0.2.2](https://github.com/PengBoUESTC/vite-plugin-els-movable/compare/v0.2.1...v0.2.2) (2024-04-16)
 
 
