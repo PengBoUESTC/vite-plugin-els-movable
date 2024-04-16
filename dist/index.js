@@ -38,7 +38,7 @@ function bindMove(el, boundInfo) {
 }
 
 function elsMovable(options) {
-    const { calssPrefix = 'movable' } = options;
+    const { classPrefix = 'movable' } = options;
     return {
         enforce: 'post',
         name: 'vite:els-movable',
@@ -53,7 +53,7 @@ function elsMovable(options) {
                             children: `
                 const __bindMove__ = ${bindMove.toString()};
                 const __bindForEles__ = ${script.bindForEles.toString()};
-                __bindForEles__('${calssPrefix}', __bindMove__)
+                __bindForEles__('${classPrefix}', __bindMove__)
               `
                         },
                     ],

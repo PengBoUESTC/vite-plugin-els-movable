@@ -1,5 +1,5 @@
 import { PluginOption } from 'vite';
 export interface MovableOptions {
-    calssPrefix: string;
+    classPrefix: string;
 }
 export default function elsMovable(options: Partial<MovableOptions>): PluginOption;
