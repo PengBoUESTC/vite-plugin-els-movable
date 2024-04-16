@@ -42,6 +42,12 @@ function elsMovable(options) {
     return {
         enforce: 'post',
         name: 'vite:els-movable',
+        apply(config, env) {
+            const { mode, command } = env;
+            if (command === 'serve')
+                return true;
+            return mode !== 'production';
+        },
         transformIndexHtml: {
             transform(html) {
                 return {
