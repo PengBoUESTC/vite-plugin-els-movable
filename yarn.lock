@@ -4166,10 +4166,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-touch-move-script@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/touch-move-script/-/touch-move-script-0.0.7.tgz#515c5b486c12f9676676640e70a94edb4632e7dc"
-  integrity sha512-A/HVh8eYbJNGgQkvjprdPGlbf0XvPrPKB3sWlWkfQhZbiri55xRPQAlzRaNAMLGy0mQSgYB32/U/GVxCaUR1dg==
+touch-move-script@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/touch-move-script/-/touch-move-script-0.1.0.tgz#e0a209b57b55a8a3b127fd40db78f35707e41fb5"
+  integrity sha512-iuHi29Qz2BTn2CA4LdjxkGy0jJ3KgeybOk/OG7wwAYV3t1i1ZUCqyI3ZNmCyLCtLFruNziTUmdQuc8R1Si+8jw==
   dependencies:
     release-pkg "^1.1.2"
 

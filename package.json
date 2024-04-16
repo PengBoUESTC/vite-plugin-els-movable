@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "release-pkg": "^1.1.2",
-    "touch-move-script": "^0.0.7"
+    "touch-move-script": "^0.1.0"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
