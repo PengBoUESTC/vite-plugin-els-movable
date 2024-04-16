@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/PengBoUESTC/vite-plugin-els-movable/compare/v0.1.0...v0.2.0) (2024-04-16)
+
+
+### Features
+
+* support for class list & fix var str ([5010c29](https://github.com/PengBoUESTC/vite-plugin-els-movable/commit/5010c29f749e591a80bc3bfeb76d61f9512390cf))
+
+
+
 # [0.1.0](https://github.com/PengBoUESTC/vite-plugin-els-movable/compare/v0.0.3...v0.1.0) (2024-04-11)
 
 
