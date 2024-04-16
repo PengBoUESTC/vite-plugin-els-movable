@@ -8,7 +8,10 @@ import elsMovable from 'vite-plugin-els-movable'
     // interface MovableOptions {
     //   calssPrefix: string
     // }
+    // selector '[class^=movable]''
     elsMovable({ calssPrefix: 'movable' })
+    // selector '[class^=movable],[class^=heihei]'
+    elsMovable({ calssPrefix: 'movable,heihei' })
   ]
 }
 ```
