@@ -1,5 +1,7 @@
 ## vite-plugin-els-movable
 
+> plugin for `server` mode or **not** `production` env
+
 ```javascript
 import elsMovable from 'vite-plugin-els-movable'
 
