@@ -3717,7 +3717,7 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-release-pkg@^1.1.2:
+release-pkg@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/release-pkg/-/release-pkg-1.2.1.tgz#bd8edfeb628334d00e95d75711b25c0ee3427226"
   integrity sha512-YB3Z28uYZS2DjiYZneqgps2RtUdzW+mfpAkTuJtWNqBFNyI6cO2XCB8Jca8PPEnX6HBsKGZc2tS54ZWoMOZIiA==
@@ -4166,12 +4166,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-touch-move-script@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/touch-move-script/-/touch-move-script-0.1.0.tgz#e0a209b57b55a8a3b127fd40db78f35707e41fb5"
-  integrity sha512-iuHi29Qz2BTn2CA4LdjxkGy0jJ3KgeybOk/OG7wwAYV3t1i1ZUCqyI3ZNmCyLCtLFruNziTUmdQuc8R1Si+8jw==
-  dependencies:
-    release-pkg "^1.1.2"
+touch-move-script@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/touch-move-script/-/touch-move-script-0.1.1.tgz#d3ae0fc740f296b949adff90d56a9fa13f493505"
+  integrity sha512-LuVHysSH/4w3tcUc+d/zmNNuIgdnymjV6rb7/Z2JoGd7llBL52P5tw8uRU1z3p6x6HoiUZVvIWrsvAi0MOP+Ag==
 
 trim-newlines@^3.0.0:
   version "3.0.1"
