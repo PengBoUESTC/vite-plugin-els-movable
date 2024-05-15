@@ -1,13 +1,14 @@
-
 import { PluginOption } from 'vite'
 import { bindForEles } from './script'
-import bindMove from 'touch-move-script'
+import { bindDrag, bindTouch } from 'touch-move-script'
 
 export interface MovableOptions {
   classPrefix: string
 }
 
-export default function elsMovable(options: Partial<MovableOptions>):PluginOption {
+export default function elsMovable(
+  options: Partial<MovableOptions>,
+): PluginOption {
   const { classPrefix = 'movable' } = options
 
   return {
@@ -27,10 +28,11 @@ export default function elsMovable(options: Partial<MovableOptions>):PluginOptio
               tag: 'script',
               injectTo: 'body',
               children: `
-                const __bindMove__ = ${bindMove.toString()};
+                const __bindDrag__ = ${bindDrag.toString()};
+                const __bindTouch__ = ${bindTouch.toString()};
                 const __bindForEles__ = ${bindForEles.toString()};
-                __bindForEles__('${classPrefix}', __bindMove__)
-              `
+                __bindForEles__('${classPrefix}', __bindDrag__, __bindTouch__)
+              `,
             },
           ],
         }
