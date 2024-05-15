@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-els-movable",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "description": "",
   "main": "dist/index.js",
   "bin": {},
@@ -52,7 +52,7 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "dist/**/*.{js,ts,d.ts}": [
+    "dist/**/*.{ts,d.ts}": [
       "eslint --fix",
       "prettier --write"
     ]

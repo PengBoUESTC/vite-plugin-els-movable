@@ -1,3 +1,21 @@
+## [0.2.6](https://github.com/PengBoUESTC/vite-plugin-els-movable/compare/v0.2.4...v0.2.6) (2024-05-15)
+
+
+### Features
+
+* update touch-move-script dep ([7c9e55c](https://github.com/PengBoUESTC/vite-plugin-els-movable/commit/7c9e55cfa6ecf34bf27578ee457762480c325efa))
+
+
+
+## [0.2.5](https://github.com/PengBoUESTC/vite-plugin-els-movable/compare/v0.2.4...v0.2.5) (2024-05-15)
+
+
+### Features
+
+* update touch-move-script dep ([7c9e55c](https://github.com/PengBoUESTC/vite-plugin-els-movable/commit/7c9e55cfa6ecf34bf27578ee457762480c325efa))
+
+
+
 ## [0.2.4](https://github.com/PengBoUESTC/vite-plugin-els-movable/compare/v0.2.3...v0.2.4) (2024-04-23)
 
 

@@ -1,10 +1,14 @@
 'use strict';
 
-const bindForEles = (classPrefix, bindMove) => {
-    const selectors = classPrefix.split(',').map(prefix => `[class^=${prefix}]`).join(',');
+const bindForEles = (classPrefix, bindDrag, bindTouch) => {
+    const selectors = classPrefix
+        .split(',')
+        .map((prefix) => `[class^=${prefix}]`)
+        .join(',');
     const els = [...document.querySelectorAll(selectors)];
-    els.forEach(ele => {
-        bindMove(ele, {});
+    els.forEach((ele) => {
+        bindTouch(ele, {});
+        bindDrag(ele, {});
     });
 };
 
